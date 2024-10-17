@@ -58,3 +58,4 @@
     5. otherwise if input choice is V
        6. call view balance
     6. output thanks for using ATM
+    7. 
