@@ -1,7 +1,16 @@
 from itertools import filterfalse
 from logging import DEBUG
 
+# Programmers:  Caitlin Burns and Korede Oni
+# Course:  CS151, Professor Zee
+# Due Date: 10/23/2024
+# Lab Assignment: 5
+# Problem Statement: This code allows a user to select from a menu of ATM options
+# Data In: deposit, withdrawal, view, exit, and amounts to deposit/withdraw
+# Data Out: total balance or negative balance warning
+# Credits: this code builds on the code from lab 5
 
+#this allows user to make a choice
 def input_choice():
     choice = input("\nPlease select an option:"
           "\n\t D - Deposit"
@@ -14,14 +23,14 @@ def input_choice():
         choice = input("\nPlease select an option:")
     return choice
 
-
+#this checks for negative numbers
 def error_return(int_check):
     if int_check < 0:
         print('Invalid input.')
         return 1
     return 0
 
-
+#allows user to make a deposit
 def deposit(balance):
     deposit_amt = int(input('How much would you like to deposit?: '))
     if error_return(deposit_amt) == 1:
@@ -31,6 +40,7 @@ def deposit(balance):
         print(f'Your balance is ${balance:.2f}')
     return balance
 
+#allows user to make a withdrawal
 def withdraw(balance):
     withdraw_amt = int(input('How much would you like to withdraw?: '))
     if error_return(withdraw_amt) == 1:
@@ -42,12 +52,15 @@ def withdraw(balance):
             print('You will be charged 5% interest.')
     return balance
 
+#allows user to view balance
 def view_balance(balance):
     print(f'Your balance is ${balance}')
 
+#allows user to exit
 def exit():
     print('Thank you for using the ATM')
 
+#allows main program to run
 def main():
     print('This code allows a user to select from a list of options at an ATM. \nThey can deposit, withdraw, or check balance')
     balance = 1000
