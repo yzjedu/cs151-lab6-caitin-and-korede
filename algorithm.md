@@ -14,8 +14,8 @@
 
 * Purpose: To check for when user inputs negative number
 * Name: error_return
-* Parameter: User inputted number
-* Return: Return 1 if true, 0 if false (This is used in the deposit and withdraw functions to see if they should still run or not)
+* Parameter(s): User inputted number
+* Return: Return 1 if int_check is negative, 0 if it's positive (This is used in the deposit and withdraw functions to see if they should still run or not)
 * Algorithm:
   * 1. If int_check is negative
         1. Output error message
@@ -25,7 +25,7 @@
 
 * Purpose: To deposit money into the account
 * Name: deposit
-* Parameters: The current balance, the amount the user wants to deposit
+* Parameter(s): Current balance
 * Return: New balance
   * 1. Ask the user how much they want to deposit
     2. If error_return returns 1 using the deposit amount as the parameter
@@ -38,7 +38,7 @@
 
 * Purpose: To withdraw money from the account
 * Name: withdraw
-* Parameters: The current balance, the amount the user wants to deposit
+* Parameter(s): Current balance
 * Return: New balance
   * 1. Ask the user how much they want to withdraw
     2. If error_return returns 1 using the withdrawal amount as the parameter
@@ -53,7 +53,7 @@
 
 * Purpose: To display the current balance
 * Name: view_balance
-* Parameters: None
+* Parameter(s): None
 * Return: Current balance
 * Algorithm:
   * 1. Return current balance
@@ -61,24 +61,25 @@
 
 * Purpose: Displays exit message when done
 * Name: exit
-* Parameters: None
+* Parameter(s): None
 * Return: None
 * Algorithm:
   * 1. Output Thank for using our ATM
 
 
 * Purpose: To run full program
-* name: main
-* parameters: None
-* return: None
+* Name: main
+* parameter(s): None
+* Return: None
 * Algorithm:
-  * 1. output the purpose of the code
+  * 1. Output the purpose of the code
     2. Create variable balance and set it equal to 1000
-    3. call input_choice
-    4. If input choice is D
-       1. call deposit and set equal to balance
-    5. otherwise if input choice is W
-       1. call withdraw and set equal to balance
-    6. otherwise if input choice is V
-       1. call view_balance 
-    7. output thanks for using ATM
+    3. Create variable choice and set it equal to the function input_choice
+    4. While choice does not equal E
+       1. If input choice is D
+          1. Update balance by setting it equal to the function deposit
+       2. Otherwise, if input choice is W
+          1. Update balance by setting it equal to the function withdraw
+       3. Otherwise, if input choice is V
+          1. call view_balance 
+    5. Call exit
