@@ -1,3 +1,4 @@
+from itertools import filterfalse
 from logging import DEBUG
 
 
@@ -7,7 +8,7 @@ def input_choice():
           "\n\t W - Withdraw"
           "\n\t V - View Balance"
           "\n\t E - Exit"
-            "\n\t Enter input here:")
+            "\n\t Enter input here: ")
     choice = choice.upper()
     while choice != 'D' and choice != 'W' and choice != 'V' and choice != 'E':
         choice = input("\nPlease select an option:")
@@ -16,23 +17,29 @@ def input_choice():
 
 def error_return(int_check):
     if int_check < 0:
-        print('Input a valid number')
+        print('Invalid input.')
+        return 1
+    return 0
 
 
 def deposit(balance):
     deposit_amt = int(input('How much would you like to deposit?: '))
-    error_return(deposit_amt)
-    balance += deposit_amt
-    print(f'Your balance is ${balance:.2f}')
+    if error_return(deposit_amt) == 1:
+        print("Bringing you back to the main menu.")
+    else:
+        balance += deposit_amt
+        print(f'Your balance is ${balance:.2f}')
     return balance
 
 def withdraw(balance):
     withdraw_amt = int(input('How much would you like to withdraw?: '))
-    error_return(withdraw_amt)
-    balance -= withdraw_amt
-    print(f'Your balance is ${balance:.2f}')
-    if balance < 0:
-        print('You will be charged 5% interest.')
+    if error_return(withdraw_amt) == 1:
+       print("Bringing you back to the main menu.")
+    else:
+        balance -= withdraw_amt
+        print(f'Your balance is ${balance:.2f}')
+        if balance < 0:
+            print('You will be charged 5% interest.')
     return balance
 
 def view_balance(balance):
