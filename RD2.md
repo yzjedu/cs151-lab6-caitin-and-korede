@@ -1,8 +1,7 @@
-ENCRYPTED:
-# Nabhaypekj Zkyqiajp
+# Reflection Document
 
-* Znera Bqhh Jwia  : Ywephej Xqnjo
-* Lwnpjan Bqhh Jwia: Gknaza Kje
-* Opqzajp EZ: 1903398. 
+* Drive Full Name  : Caitlin Burns
+* Partner Full Name: Korede Oni
+* Student ID: 1903398. 
 
-* Pda ckwh kb pdeo hwx swo pk hawnj dks pk qoa bqjypekjo ej ykza, wo sahh wo ej wj whcknepdi. Sa benop ynawpaz wj whcknepdi bkn kqn ykza, wjz pdaj sa lnkcnwiiaz ep qoejc bqjypekjo. Pda gau ykjyalp sa atlhknaz swo pda bqjypekjo. Kqn naoqhpo zez iwpyd sdwp sa atlaypaz pk cap xayqoa pdau iwpydaz pda naoqhpo kb kqn hwop hwx. Pda ydwhhajca E ajykqjpanaz swo qjzanopwjzejc pda bqjypekjo, xqp kjya sa opwnpaz skngejc E ckp w xappan ezaw kb sdwp bqjypekjo sana wjz dks pdau odkqhz xa qoaz. Iu gau pwgawswu eo pdwp bqjypekjo ywj xa nawhhu dahlbqh ej lnkcnwiiejc. E hegaz skngejc sepd iu lwnpjan xaywqoa da eo nawhhu ckkz wp ykzejc wjz da swo ranu dahlbqh.    
+* The goal of this lab was to learn how to use functions in code, as well as in an algorithm. We first created an algorithm for our code, and then we programmed it using functions. The key concept we explored was the functions. Our results did match what we expected to get becuse they matched the results of our last lab. The challenge I encountered was understanding the functions, but once we started working I got a better idea of what functions were and how they should be used. My key takeaway is that functions can be really helpful in programming. I liked working with my partner because he is really good at coding and he was very helpful.    

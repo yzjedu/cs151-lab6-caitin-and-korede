@@ -1,23 +1,22 @@
-ENCRYPTED:
-# Ylmsljapvu Kvjbtlua
+# Reflection Document
 
-* Kypcl Mbss Uhtl  : Rvylkl Vup
-* Whyauly Mbss Uhtl: Jhpaspu Ibyuz
-* Zabklua PK: 1925456
+* Drive Full Name  : Korede Oni
+* Partner Full Name: Caitlin Burns
+* Student ID: 1925456
 
-Pu aopz shi, hz dlss hz aol wylcpvbz shi, vby nvhs dhz av thrl h wyvnyht aoha zptbshalk hu HAT, 
-jvtwslal dpao lyyvy joljrpun huk jvuzpzalua svvwpun av thrl zbyl aoha aol bzly jvtwslalz hss aol ahzrz aolf
-ullk av, ovdlcly, dl ullklk av kv zv bapspgpun mbujapvuz puzalhk vm qbza vul ipn isvjr vm jvkl. Zpujl h sva vm aol
-nyvbukdvyr dhz shpk vba, pa dhz lhzf av ha slhza buklyzahuk doha dhz ullklk, iba leljbapun pa jvbsk nla h spaasl zayhunl.
-Lclyf mbujapvu ha aol zbymhjl slcls pz ylhssf lhzf av buklyzahuk huk jvtwslal, iba dl nva h mld lyyvyz hsvun aol dhf. P 
-zahyalk aol hsnvypaot huk nva tvza vm aol vynhupghapvu kvul dpao aoha xbpjrsf, zv h sva vm aol jvkl (tvzasf kvul if Jhpaspu)
-dlua wylaaf ztvvaosf. Aol thpu wvpuaz dl opa yvhkisvjrz dpao dlyl ayfpun av nla aol dpaokyhdhs huk klwvzpa mbujapvuz av zavw
-pm aol bzly puwbaalk h ulnhapcl ubtily. Ha mpyza, dl thkl pa svvw buaps dl yltltilylk aoha pa dhzu'a doha dhz uljlzzhyf, zv dl
-ohk av mpuk h dhf av thrl pa zavw. Tf zvsbapvu dhz av ylabyu 1 pu jhzl aol puwbaalk ubtily dhz ulnhapcl zv aoha aol wyvnyht
-dvbsk ruvd av zavw huk ylabyu 0 pm aol ubtily dhzu'a ulnhapcl huk alss aol mbujapvu av rllw nvpun. Aoha dhz wyvihisf aol
-dlpyklza obyksl av vclyjvtl iljhbzl pa mlsa sprl aol zvsbapvu zovbsk'cl illu lhzf, iba pa dhzu'a. P mlls sprl aopz shi olswlk tl
-nhpu h ilaaly buklyzahukpun vm bzpun mbujapvuz. P ulcly ylhssf jvuuljalk aolt dpao chyphislz iba aopz olswlk tl zll aolt tvyl
-hz aoha dopjo thkl aol shi lhzply.
+In this lab, as well as the previous lab, our goal was to make a program that simulated an ATM, 
+complete with error checking and consistent looping to make sure that the user completes all the tasks they
+need to, however, we needed to do so utilizing functions instead of just one big block of code. Since a lot of the
+groundwork was laid out, it was easy to at least understand what was needed, but executing it could get a little strange.
+Every function at the surface level is really easy to understand and complete, but we got a few errors along the way. I 
+started the algorithm and got most of the organization done with that quickly, so a lot of the code (mostly done by Caitlin)
+went pretty smoothly. The main points we hit roadblocks with were trying to get the withdrawal and deposit functions to stop
+if the user inputted a negative number. At first, we made it loop until we remembered that it wasn't what was necessary, so we
+had to find a way to make it stop. My solution was to return 1 in case the inputted number was negative so that the program
+would know to stop and return 0 if the number wasn't negative and tell the function to keep going. That was probably the
+weirdest hurdle to overcome because it felt like the solution should've been easy, but it wasn't. I feel like this lab helped me
+gain a better understanding of using functions. I never really connected them with variables but this helped me see them more
+as that which made the lab easier.
 
 
 
